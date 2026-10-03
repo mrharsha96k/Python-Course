@@ -12,3 +12,37 @@ print("My age is", age)
 print("My percentage is", percentage)
 print("My age2 is", age2)
 
+score = 0
+score = 10
+print("my score is ",score)
+
+
+a = 5
+b = 10
+c = 5
+a = b
+print(a)
+b = c
+print(b)
+
+
+price = 49
+tax = 5
+total = price + tax
+print(total) 
+
+
+item = "laptop"
+original_price = 1000
+discount = 200
+final_price = original_price - discount
+
+print(f"The {item} costs ${final_price} after a ${discount} discount.")
+a = 5
+b = 10
+
+
+a, b = b, a
+
+print(a)  # Prints 10
+print(b)  # Prints 5
